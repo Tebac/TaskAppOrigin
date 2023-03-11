@@ -1,11 +1,14 @@
 source 'https://rubygems.org'
 
-gem 'rails',        '~> 5.1.6'
+ruby '2.7.6'
+
+gem 'rails',        '~> 5.1.7'
 gem 'bcrypt'
 gem 'faker'
 gem 'bootstrap-sass'
 gem 'puma',         '~> 3.7'
-gem 'sass-rails',   '~> 5.0'
+gem 'sassc'
+# gem 'sass-rails',   '~> 5.0'
 gem 'uglifier',     '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
